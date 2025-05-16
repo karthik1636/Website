@@ -514,8 +514,7 @@
 
     /* Highlight effect on hover */
 .tags span:hover {
-  background-color: #3498db;  /* Blue background on hover */
-  color: #fff;                /* White text on hover */
+  color: #3498db;                /* Blue text on hover */
   transform: scale(1.1);       /* Slightly enlarge the element */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  /* Add shadow for depth */
 }
@@ -565,8 +564,9 @@
     .education {
   margin-top: 3rem;
   padding: 1.5rem;
-  background: var(--bg-card);
-  box-shadow: var(--card-shadow);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   border-radius: 8px;
   width: 100%;
   max-width: 600px;
@@ -1024,6 +1024,7 @@
             <img src="assets/images/red_cross.jpeg" alt="American Red Cross Logo" class="company-logo">
           <h3>Data Analyst @ Red Cross</h3>
           <p>Automated 500+ monthly receipt analyses using Azure PromptFlow, saving 10 hours/week and reducing manual effort by 85%, cutting costs by $10K/month.</p>
+           <hr>
          <p>Created Tableau dashboards for disaster response KPIs, boosting operational efficiency by 15% and aiding cross-functional decision-making.</p>
           
           
@@ -1036,6 +1037,7 @@
         <div class="card">
           <h3>Instructional Assistant @ UH</h3>
           <p>Conducted 30+ sessions for 50+ grad students on regression, hypothesis testing, Bayesian inference, and statistical computing with real-world data.</p>
+           <hr>
           <p>Led labs & provided personalized mentoring, resulting in 100% course completion and 85% scoring above 90%.</p>
           <div class="tags">
             <span>Education</span>
@@ -1058,10 +1060,10 @@
   <div class="education">
     <h3>Education</h3>
     <p><strong>University of Houston</strong><br>
-      M.S. in Statistics and Data Science <br>
-      Houston, TX <br>
+      Master of Science in Statistics and Data Science <br>
       Aug 2023 – Dec 2024 <br>
-      GPA: 3.74/4.0
+      GPA: 3.74/4.0<br>
+      Houston, TX
     </p>
   </div>
 </section>
