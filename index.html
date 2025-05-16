@@ -512,18 +512,20 @@
       transition: background 0.3s ease, transform 0.3s ease;
     }
 
-    /* Highlight effect on hover */
+
+/* Highlight effect on hover for individual tags */
 .tags span:hover {
-  color: #3498db;                /* Blue text on hover */
-  transform: scale(1.1);       /* Slightly enlarge the element */
+  background-color: #3498db;  /* Change to blue background on hover */
+  color: #ffffff;             /* Change text to white on hover for contrast */
+  transform: scale(1.1);      /* Slightly enlarge the element */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  /* Add shadow for depth */
 }
 
-    
-    .card:hover .tags span {
-      transform: scale(1.05);
-      background: rgba(10, 170, 255, 0.2);
-    }
+/* Additional effect when hovering over the .card element */
+.card:hover .tags span {
+  transform: scale(1.05);  /* Slightly increase the scale when card is hovered */
+  background: rgba(10, 170, 255, 0.2);  /* Darker background when card is hovered */
+}
     
     /* About */
     #about {
